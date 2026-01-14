@@ -22,6 +22,14 @@ uv add pymupdf        # PDF reading and modification
 export GEMINI_API_KEY="your_api_key_here" # append this line to end of .bashrc file
 ```
 
+## Run Project
+
+```bash
+uv run main.py
+```
+
+> **Note:** In main.py, inside main function, below variable names can be modified  
+> **ai_model_name**, **pdf_file_loc**, **anotated_pdf_path**, **prompt**
 
 ---
 
