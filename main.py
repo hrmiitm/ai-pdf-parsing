@@ -83,8 +83,8 @@ def main():
         print("1. Gemini Api Key is set")
     
     ai_model_name = "gemini-3-flash-preview"
-    pdf_file_loc = 'invoice.pdf'
-    anotated_pdf_path = 'invoice_anotated.pdf'
+    pdf_file_loc = 'pdf/invoice_multipage.pdf'
+    anotated_pdf_path = 'anotated_pdf/invoice_multipage.pdf'
 
     prompt = """
     Extract the invoice recipient name and invoice total.
